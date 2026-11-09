@@ -61,6 +61,6 @@ mkdocs serve        # vista previa en http://127.0.0.1:8000
 
 ## 👤 Autor
 
-- **Nombre:** _tu nombre_
-- **Curso:** _nombre de la asignatura_
-- **Fecha:** _fecha_
+- **Nombre:** David Luna Lara
+- **Curso:** Diseño de Circuitos
+- **Periodo Académico :**  septiembre 2026-marzo 2027 
