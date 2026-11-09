@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="Portada: Lógica Combinacional, libro de aprendizaje de cuatro semanas">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="0.55" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="520" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="520" rx="24" fill="url(#grid)"/>
+
+  <!-- binary rain -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#ffffff" fill-opacity="0.08">
+    <text x="40" y="60">0110 1001 1100 0101 1010 0011</text>
+    <text x="620" y="40">1011 0100 0111 1000 0010 1101</text>
+    <text x="80" y="490">0001 1110 0101 1011 0110 1001</text>
+    <text x="700" y="500">1100 0011 1010 0110 1111 0001</text>
+  </g>
+
+  <!-- logic gates decoration -->
+  <g fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+    <!-- AND gate -->
+    <path d="M820 150 H870 M820 190 H870 M870 130 H910 A40 40 0 0 1 910 210 H870 Z M990 170 H1050"/>
+    <!-- OR gate -->
+    <path d="M820 290 H872 M820 330 H872 M862 270 Q930 270 985 310 Q930 350 862 350 Q893 310 862 270 Z M985 310 H1050"/>
+    <!-- NOT gate -->
+    <path d="M820 420 H870 M870 395 V445 L930 420 Z M942 420 H1050"/>
+  </g>
+  <g fill="url(#accent)">
+    <circle cx="936" cy="420" r="7" fill="none" stroke="#fbbf24" stroke-width="4"/>
+    <circle cx="1050" cy="170" r="6"/>
+    <circle cx="1050" cy="310" r="6"/>
+    <circle cx="1050" cy="420" r="6"/>
+  </g>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#e0e7ff" font-weight="bold">
+    <text x="1062" y="176">AND</text>
+    <text x="1062" y="316">OR</text>
+    <text x="1062" y="426">NOT</text>
+  </g>
+
+  <!-- text -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="70" y="95" width="210" height="34" rx="17" fill="#fbbf24"/>
+    <text x="175" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#1e1b4b" letter-spacing="2">LIBRO DE APRENDIZAJE</text>
+
+    <text x="70" y="220" font-size="76" font-weight="800" fill="#ffffff">Lógica</text>
+    <text x="70" y="300" font-size="76" font-weight="800" fill="#ffffff">Combinacional</text>
+    <rect x="70" y="322" width="180" height="6" rx="3" fill="url(#accent)"/>
+
+    <text x="70" y="378" font-size="26" fill="#e0e7ff">De los bits a la unidad aritmético-lógica</text>
+    <text x="70" y="420" font-size="20" fill="#a5b4fc" letter-spacing="1">4 SEMANAS  ·  BOOLE  ·  KARNAUGH  ·  ARITMÉTICA</text>
+  </g>
+</svg>
